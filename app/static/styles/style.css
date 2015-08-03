@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+#quote-container {
+    height: 100%;
+    width: 100%;
+}
+
+#quote-container #quote {
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 4.5em;
+    color: white;
+}
+
+#quote-container #author {
+    margin-top: 10%;
+    margin-right: 10%;
+    width: auto;
+    font-style: italic;
+    float: right;
+    text-align: right;
+}
